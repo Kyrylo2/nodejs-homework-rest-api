@@ -1,20 +1,19 @@
-# PhoneBook Rest API
+# Node.js Homework Rest API
 
-![GitHub](https://img.shields.io/github/license/Kyrylo2/phonebook-rest-api?color=blue&style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/Kyrylo2/phonebook-rest-api?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Kyrylo2/phonebook-rest-api?style=flat-square)
+![GitHub](https://img.shields.io/github/license/Kyrylo2/nodejs-homework-rest-api?color=blue&style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/Kyrylo2/nodejs-homework-rest-api?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Kyrylo2/nodejs-homework-rest-api?style=flat-square)
 
-This repository contains a phone book REST API with email-based authentication. Authorized users can manage contacts, including creation, editing, and deletion, and they can also add contact photos. 😎
+Welcome to the Node.js Homework Rest API repository! 🚀 This repository contains a REST API for managing homework assignments. It provides endpoints for creating, updating, and deleting homework assignments, as well as retrieving a list of assignments and specific assignment details.
 
 ## Technologies
 
-🚀 The following technologies were used to develop this project:
+🔧 The following technologies were used to develop this project:
 
 - Node.js
 - Express.js
 - MongoDB
 - Mongoose
-- Multer
-- Nodemailer
 - JWT
+- bcrypt
 - Joi
 - etc.
 
@@ -34,13 +33,13 @@ Before running this application, make sure you have the following installed:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/Kyrylo2/phonebook-rest-api.git
+   git clone https://github.com/Kyrylo2/nodejs-homework-rest-api.git
    ```
 
 2. Navigate to the project directory:
 
    ```shell
-   cd phonebook-rest-api
+   cd nodejs-homework-rest-api
    ```
 
 3. Install the dependencies:
@@ -51,17 +50,13 @@ Before running this application, make sure you have the following installed:
 
 ### Usage
 
-🚀 To start the server in production mode, run the following command:
+🚀 To start the server, run the following command:
 
 ```shell
 npm start
 ```
 
-🚧 To start the server in development mode, run the following command:
-
-```shell
-npm run start:dev
-```
+The server will start running on the specified port, and you can then access the API endpoints.
 
 ### Code Linting
 
@@ -89,4 +84,4 @@ npm run lint:fix
 
 ## Acknowledgments
 
-🙌 This project is a personal study project, aimed at practicing and demonstrating the use of various technologies in building a REST API. 🎉
+🙌 This project was developed as part of a homework assignment, demonstrating the use of various technologies to build a REST API.
