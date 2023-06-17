@@ -1,31 +1,92 @@
-## GoIT Node.js Course Template Homework
+# PhoneBook Rest API
 
-Виконайте форк цього репозиторію для виконання домашніх завдань (2-6)
-Форк створить репозиторій на вашому http://github.com
+![GitHub](https://img.shields.io/github/license/Kyrylo2/phonebook-rest-api?color=blue&style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/Kyrylo2/phonebook-rest-api?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Kyrylo2/phonebook-rest-api?style=flat-square)
 
-Додайте ментора до колаборації
+This repository contains a phone book REST API with email-based authentication. Authorized users can manage contacts, including creation, editing, and deletion, and they can also add contact photos. 😎
 
-Для кожної домашньої роботи створюйте свою гілку.
+## Technologies
 
-- hw02
-- hw03
-- hw04
-- hw05
-- hw06
+🚀 The following technologies were used to develop this project:
 
-Кожна нова гілка для др повинна робитися з master
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Multer
+- Nodemailer
+- JWT
+- Joi
+- etc.
 
-Після того, як ви закінчили виконувати домашнє завдання у своїй гілці, необхідно зробити пулл-реквест (PR). Потім додати ментора для рев'ю коду. Тільки після того, як ментор заапрувить PR, ви можете виконати мердж гілки з домашнім завданням у майстер.
+## Getting Started
 
-Уважно читайте коментарі ментора. Виправте зауваження та зробіть коміт у гілці з домашнім завданням. Зміни підтягнуться у PR автоматично після того, як ви відправите коміт з виправленнями на github
-Після виправлення знову додайте ментора на рев'ю коду.
+📋 Follow the instructions below to get a local copy of the project up and running on your machine.
 
-- При здачі домашньої роботи є посилання на PR
-- JS-код чистий та зрозумілий, для форматування використовується Prettier
+### Prerequisites
 
-### Команди:
+Before running this application, make sure you have the following installed:
 
-- `npm start` &mdash; старт сервера в режимі production
-- `npm run start:dev` &mdash; старт сервера в режимі розробки (development)
-- `npm run lint` &mdash; запустити виконання перевірки коду з eslint, необхідно виконувати перед кожним PR та виправляти всі помилки лінтера
-- `npm lint:fix` &mdash; та ж перевірка лінтера, але з автоматичними виправленнями простих помилок
+- Node.js (version X.X.X)
+- MongoDB (version X.X.X)
+
+### Installation
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/Kyrylo2/phonebook-rest-api.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```shell
+   cd phonebook-rest-api
+   ```
+
+3. Install the dependencies:
+
+   ```shell
+   npm install
+   ```
+
+### Usage
+
+🚀 To start the server in production mode, run the following command:
+
+```shell
+npm start
+```
+
+🚧 To start the server in development mode, run the following command:
+
+```shell
+npm run start:dev
+```
+
+### Code Linting
+
+✨ To check the code using ESLint, run the following command:
+
+```shell
+npm run lint
+```
+
+🔧 It is recommended to run this command before submitting a pull request and fix all the reported issues.
+
+🔧 To automatically fix simple linting errors, run the following command:
+
+```shell
+npm run lint:fix
+```
+
+## Contributing
+
+🤝 Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to create a pull request.
+
+## License
+
+📝 This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+🙌 This project is a personal study project, aimed at practicing and demonstrating the use of various technologies in building a REST API. 🎉
