@@ -25,4 +25,12 @@ router.patch(
   ctrl.updateAvatar
 );
 
+// varify
+router.get('/verify/:verificationToken', ctrl.verifyEmail);
+router.post(
+  '/verify',
+  validateBody(schemas.emailSchema, 404, 'missing required field email'),
+  ctrl.resendVerifyEmail
+);
+
 module.exports = router;
